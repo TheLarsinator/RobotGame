@@ -40,9 +40,9 @@ public class GameScreen extends Screen
     private int BGWIDTH = 2160;
     int livesLeft = 3;
     public static int score = 0;
-
     Paint paint, paint2;
 
+    //The game starts here
     public GameScreen(Game game)
     {
         super(game);
